@@ -1,19 +1,4 @@
 
-Conversations
-
-Important
- 
-1–25 of 159
- 
-
-Everything else
- 
-1–25 of 5,406
- 
-7% of 15 GB used
-Terms · Privacy · Programme Policies
-Last account activity: 7 minutes ago
-Details
 <div align="center">
 
 <img src="https://coding-to-void.github.io/MONRED/MONRED-logo.svg" alt="MONRED Logo" width="160"/>
