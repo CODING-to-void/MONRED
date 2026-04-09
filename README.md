@@ -83,7 +83,7 @@ It pulls live data from **LibriVox** and the **Internet Archive** simultaneously
   ║                                                           ║
   ║  📄  PDF / TEXT MODE                                      ║
   ║      Public domain texts sourced from Internet Archive.   ║
-  ║      Opens clean inside Readest — no download required.   ║
+  ║      Opens clean inside browser — no download required.   ║
   ║                                                           ║
   ║  🔍  QUAD SEARCH ENGINE                                   ║
   ║      Title · Author · Genre/Subject · Latest Releases     ║
