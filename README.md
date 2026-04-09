@@ -14,7 +14,6 @@
 
 [![LibriVox](https://img.shields.io/badge/LibriVox_API-21%2C346_books-00cc33?style=flat-square&labelColor=0a0a0a)](https://librivox.org/)
 [![Internet Archive](https://img.shields.io/badge/Internet_Archive-Millions_of_texts-00aa2a?style=flat-square&labelColor=0a0a0a)](https://archive.org/)
-[![Readest](https://img.shields.io/badge/Readest-PDF_Reader-008822?style=flat-square&labelColor=0a0a0a)](https://readest.com/)
 [![License](https://img.shields.io/badge/License-MIT-006614?style=flat-square&labelColor=0a0a0a)](./LICENSE)
 [![Stack](https://img.shields.io/badge/Stack-HTML_·_CSS_·_JS-00ff41?style=flat-square&labelColor=0a0a0a)](https://coding-to-void.github.io/MONRED/)
 
@@ -28,7 +27,6 @@
 > initializing MONRED.exe
 > connecting to LibriVox catalog.........  [OK]
 > connecting to Internet Archive.........  [OK]
-> loading Readest PDF engine..............  [OK]
 > system ready.
 ```
 
@@ -36,7 +34,7 @@
 
 No accounts. No subscriptions. No noise.
 
-It pulls live data from **LibriVox** and the **Internet Archive** simultaneously — serving you 21,000+ volunteer-narrated audiobooks and millions of digitized texts — then hands you off directly to a play-ready audiobook player or an in-browser PDF reader via **Readest**. One search. One click. You're in.
+It pulls live data from **LibriVox** and the **Internet Archive** simultaneously — serving you 21,000+ volunteer-narrated audiobooks and millions of digitized texts — then hands you off directly to a play-ready audiobook player or an in-browser PDF reader.
 
 ---
 
@@ -60,7 +58,7 @@ It pulls live data from **LibriVox** and the **Internet Archive** simultaneously
   │            ▼                           ▼                  │
   │   ┌────────────────┐       ┌───────────────────────┐      │
   │   │  AUDIOBOOK     │       │  PDF / TEXT READER    │      │
-  │   │  PLAYER        │       │  powered by Readest   │      │
+  │   │  PLAYER        │       │  powered by ur browser   │      │
   │   │  ─────────     │       │  ─────────────────    │      │
   │   │  ► Play        │       │  Open in browser      │      │
   │   │  ↓ Download    │       │  Zero install         │      │
@@ -151,16 +149,6 @@ It pulls live data from **LibriVox** and the **Internet Archive** simultaneously
                Subject metadata · File inventories
   ROLE      →  Sources all PDF and text content
 ```
-
-### 📖 Readest
-```
-  TYPE      →  In-browser ebook / PDF reader
-  TRIGGER   →  Activated on any PDF/text item click
-  ROLE      →  Renders full texts without leaving MONRED
-  INSTALL   →  None. Zero friction. Opens inline.
-```
-
----
 
 ## ◈ THE STACK
 
