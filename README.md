@@ -12,7 +12,6 @@
 [![Live App](https://img.shields.io/badge/◈_Live_App-MONRED-1a1a2e?style=for-the-badge&logoColor=white)](https://coding-to-void.github.io/MONRED/MONRED-live.html)
 [![LibriVox](https://img.shields.io/badge/API-LibriVox-8b1a1a?style=for-the-badge)](https://librivox.org/)
 [![Internet Archive](https://img.shields.io/badge/API-Internet_Archive-2c3e50?style=for-the-badge)](https://archive.org/)
-[![Readest](https://img.shields.io/badge/Powered_by-Readest-3d2b1f?style=for-the-badge)](https://readest.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-555?style=for-the-badge)](LICENSE)
 
 ---
