@@ -44,7 +44,6 @@ It bridges **LibriVox**, **Internet Archive**, and **Readest** into one seamless
 |--------|---------------|------|
 | 🎙️ **LibriVox API** | 21,000+ volunteer-narrated audiobooks | Live catalog, metadata, MP3 streams |
 | 📚 **Internet Archive API** | Millions of public domain texts & PDFs | Full-text search, PDF sourcing |
-| 📖 **Readest** | In-browser ebook reader | Opens matching PDFs directly |
 | 🌐 **MONRED API** | Live source layer | Aggregates & serves catalog data |
 
 </div>
