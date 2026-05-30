@@ -1,184 +1,103 @@
-<div align="center">
+# ◈ MONRED
 
-![MONRED](./monred-banner.svg)
+> **Audiobooks and reading — public domain, beautifully served.**
 
-</div>
+[![Live App](https://img.shields.io/badge/⬡_Live_App-MONRED-1a1a2e?style=for-the-badge&logoColor=white)](https://coding-to-void.github.io/MONRED/MONRED-live.html)
+[![LibriVox](https://img.shields.io/badge/API-LibriVox-8b1a1a?style=for-the-badge)](https://librivox.org/)
+[![Internet Archive](https://img.shields.io/badge/API-Internet_Archive-2c3e50?style=for-the-badge)](https://archive.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-555?style=for-the-badge)](./LICENSE)
 
-<div align="center">
+```
+  M ── O ── N ── R ── E ── D
+  │                         │
+  └── Public domain.       ─┘
+      Acoustically free.
+      Always open.
+```
 
-[![LIVE APP](https://img.shields.io/badge/◈_ENTER_THE_SYSTEM-LIVE_APP-00ff41?style=for-the-badge&labelColor=000000)](https://coding-to-void.github.io/MONRED/MONRED-live.html)
+MONRED is a precision-built, zero-friction frontend that fuses the world's most powerful public domain archives into a single, unified reading and listening experience. No accounts. No subscriptions. No noise.
 
-</div>
-
-<div align="center">
-
-[![LibriVox](https://img.shields.io/badge/LibriVox_API-21%2C346_books-00cc33?style=flat-square&labelColor=0a0a0a)](https://librivox.org/)
-[![Internet Archive](https://img.shields.io/badge/Internet_Archive-Millions_of_texts-00aa2a?style=flat-square&labelColor=0a0a0a)](https://archive.org/)
-[![License](https://img.shields.io/badge/License-MIT-006614?style=flat-square&labelColor=0a0a0a)](./LICENSE)
-[![Stack](https://img.shields.io/badge/Stack-HTML_·_CSS_·_JS-00ff41?style=flat-square&labelColor=0a0a0a)](https://coding-to-void.github.io/MONRED/)
-
-</div>
+It pulls live data from **LibriVox** and the **Internet Archive** simultaneously — serving 21,000+ volunteer-narrated audiobooks and millions of digitized texts — then hands you off directly to a play-ready audiobook player or an in-browser PDF reader.
 
 ---
 
-## ◈ WHAT IS MONRED
+## ◈ Live Demo
 
-```
-> initializing MONRED.exe
-> connecting to LibriVox catalog.........  [OK]
-> connecting to Internet Archive.........  [OK]
-> system ready.
-```
+**👉 [coding-to-void.github.io/MONRED/MONRED-live.html](https://coding-to-void.github.io/MONRED/MONRED-live.html)**
 
-**MONRED** is a precision-built, zero-friction frontend that fuses the world's most powerful public domain archives into a single, unified reading and listening experience.
-
-No accounts. No subscriptions. No noise.
-
-It pulls live data from **LibriVox** and the **Internet Archive** simultaneously — serving you 21,000+ volunteer-narrated audiobooks and millions of digitized texts — then hands you off directly to a play-ready audiobook player or an in-browser PDF reader.
+No install. No setup. Open and listen.
 
 ---
 
-## ◈ THE ARCHITECTURE
+## ◈ Features
 
 ```
-  ┌────────────────────────────────────────────────────────────┐
-  │                                                            │
-  │                    YOU TYPE A QUERY                        │
-  │                          │                                │
-  │            ┌─────────────┴─────────────┐                  │
-  │            ▼                           ▼                  │
-  │   ╔═══════════════╗         ╔═════════════════════╗       │
-  │   ║  LibriVox API ║         ║ Internet Archive API║       │
-  │   ║               ║         ║                     ║       │
-  │   ║ 21,346 books  ║         ║ Millions of texts   ║       │
-  │   ║ 14,697 readers║         ║ PDFs, EPUB, DjVu    ║       │
-  │   ║ 2,664 langs   ║         ║ Full metadata       ║       │
-  │   ╚═══════╤═══════╝         ╚══════════╤══════════╝       │
-  │            │                           │                  │
-  │            ▼                           ▼                  │
-  │   ┌────────────────┐       ┌───────────────────────┐      │
-  │   │  AUDIOBOOK     │       │  PDF / TEXT READER    │      │
-  │   │  PLAYER        │       │  powered by ur browser   │      │
-  │   │  ─────────     │       │  ─────────────────    │      │
-  │   │  ► Play        │       │  Open in browser      │      │
-  │   │  ↓ Download    │       │  Zero install         │      │
-  │   │  ♪ Chapter nav │       │  Clean reading UI     │      │
-  │   └────────────────┘       └───────────────────────┘      │
-  │                                                            │
-  └────────────────────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────────┐
+  │  🎧  Audiobook mode  ──  21,000+ play-ready books    │
+  │  📄  PDF mode        ──  millions of free texts      │
+  │  🔍  Search          ──  title, author, genre        │
+  │  🗂️  Live catalog   ──  newest releases first        │
+  │  📚  Personal library ── resume where you left off   │
+  │  🌍  Multi-language  ──  2,664+ non-English works    │
+  │  🌙  Dark mode       ──  easy on the eyes            │
+  │  📰  LibriVox feed   ──  live news and new releases  │
+  └──────────────────────────────────────────────────────┘
 ```
+
+### Search Modes
+
+| Mode | What it does |
+|---|---|
+| `Title` | Find a specific audiobook by name |
+| `Author` | Browse by public domain writers |
+| `Genre / Subject` | MONRED genre matching across the catalog |
+| `Latest Releases` | Newest catalog additions, always live |
+
+### Curated Collections
+
+| Shelf | Vibe |
+|---|---|
+| Dark Academia | Stone libraries, candlelight, annotated margins |
+| Philosophy Essentials | Clear minds, difficult questions, lasting arguments |
+| Sci-Fi Classics | Machines, futures, strange planets, human doubt |
+| Malayalam Literature | Regional voices, layered memory, literary warmth |
+| Psychological Thrillers | Unreliable narrators and rooms that feel too quiet |
 
 ---
 
-## ◈ FEATURE MATRIX
+## ◈ The Stack
 
-```
-  ╔═══════════════════════════════════════════════════════════╗
-  ║  CORE CAPABILITIES                                        ║
-  ╠═══════════════════════════════════════════════════════════╣
-  ║                                                           ║
-  ║  🎧  AUDIOBOOK MODE                                       ║
-  ║      Play-ready detail pages straight from LibriVox.      ║
-  ║      Full chapter navigation. MP3 streaming.              ║
-  ║                                                           ║
-  ║  📄  PDF / TEXT MODE                                      ║
-  ║      Public domain texts sourced from Internet Archive.   ║
-  ║      Opens clean inside browser — no download required.   ║
-  ║                                                           ║
-  ║  🔍  QUAD SEARCH ENGINE                                   ║
-  ║      Title · Author · Genre/Subject · Latest Releases     ║
-  ║                                                           ║
-  ║  🌍  MULTI-LANGUAGE CATALOG                               ║
-  ║      2,664+ works beyond English. World literature.       ║
-  ║                                                           ║
-  ║  📰  LIBRIVOX NEWS FEED                                   ║
-  ║      Direct live feed from LibriVox. Always current.      ║
-  ║                                                           ║
-  ║  📊  LIVE LIBRARY PULSE                                   ║
-  ║      Real-time stats from the public domain heartbeat.    ║
-  ║                                                           ║
-  ╚═══════════════════════════════════════════════════════════╝
-```
-
----
-
-## ◈ SEARCH MODES
-
-| `MODE` | `TRIGGER` | `WHAT IT DOES` |
+| Source | Role | What it powers |
 |---|---|---|
-| `01 · TITLE` | Book name | Surgical lookup across 21K+ catalog entries |
-| `02 · AUTHOR` | Author name | Browse by writer — from Homer to Hemingway |
-| `03 · GENRE / SUBJECT` | Topic or tag | MONRED genre-matching across LibriVox metadata |
-| `04 · LATEST RELEASES` | — | Freshest catalog additions, live. Always first. |
+| 🎙️ **LibriVox API** | Live catalog & audio streams | 21,000+ audiobooks, MP3 playback, metadata |
+| 📚 **Internet Archive API** | Full-text & PDF sourcing | Millions of public domain texts |
+| 📖 **Readest** | In-browser reading | PDF viewer, no friction |
+
+**Tech:** Pure HTML, CSS, and JavaScript. No npm. No build step. No framework.
 
 ---
 
-## ◈ LIVE LIBRARY PULSE
+## ◈ App Pages
 
-```
-  ╔══════════════════════════════════════════════════════╗
-  ║                                                      ║
-  ║   ▓▓▓   21,346   cataloged works          [LIVE]    ║
-  ║   ▓▓▓   14,697   volunteer readers        [LIVE]    ║
-  ║   ▓▓▓    2,664   non-English works        [LIVE]    ║
-  ║   ▓▓▓       83   new works this month     [LIVE]    ║
-  ║                                                      ║
-  ║           — streamed direct from LibriVox —          ║
-  ║                                                      ║
-  ╚══════════════════════════════════════════════════════╝
-```
+| Page | URL | Purpose |
+|---|---|---|
+| Discover | `MONRED-live.html` | Featured shelf, curated collections, latest releases |
+| Library | `MONRED-library.html` | Resume audiobooks and saved PDFs |
+| Audiobooks | `MONRED-audiobooks.html` | Full live audiobook catalog |
+| Search | `MONRED-search.html` | Search by title, author, genre, narrator |
+| Profile | `MONRED-profile.html` | Reading progress, finished books, dark mode |
 
 ---
 
-## ◈ THE DATA SOURCES
+## ◈ Getting Started
 
-### 🎙️ LibriVox API
-```
-  ENDPOINT  →  https://librivox.org/api/
-  RETURNS   →  Book metadata · Reader profiles
-               MP3 stream URLs · Language · Genre
-               Chapter breakdowns · Publication dates
-  ROLE      →  Powers every audiobook in MONRED
-```
-
-### 📚 Internet Archive API
-```
-  ENDPOINTS →  https://archive.org/advancedsearch.php
-               https://archive.org/metadata/
-  RETURNS   →  Public domain texts · PDF direct links
-               Subject metadata · File inventories
-  ROLE      →  Sources all PDF and text content
-```
-
-## ◈ THE STACK
-
-```
-  ┌────────────────────────────────────────────────┐
-  │  HTML  ─────  Structure · Semantic layout       │
-  │  CSS   ─────  Styled UI · Responsive grid       │
-  │  JS    ─────  API calls · Live data · Player    │
-  │                                                 │
-  │  Zero build step.  Zero dependencies.           │
-  │  One file. Open it. Done.                       │
-  └────────────────────────────────────────────────┘
-
-  Languages   →   JS 56.3% · CSS 26.7% · HTML 17.0%
-  Build tool  →   none
-  Bundle size →   minimal
-  Load time   →   instant
-```
-
----
-
-## ◈ GET IN
-
-### ▶ Live — no install needed
+### Use it live (recommended)
 
 ```
 https://coding-to-void.github.io/MONRED/MONRED-live.html
 ```
 
-### ▶ Run locally
+### Run locally
 
 ```bash
 git clone https://github.com/CODING-to-void/MONRED.git
@@ -190,66 +109,111 @@ open MONRED-live.html
 
 ---
 
-## ◈ FILE STRUCTURE
+## ◈ File Structure
 
 ```
-  MONRED/
-  ├── index.html           ──  Entry point
-  ├── MONRED-live.html     ──  Main app (audiobooks + search)
-  ├── MONRED-live.css      ──  Stylesheet
-  ├── MONRED-live.js       ──  API engine · player logic
-  ├── MONRED-book.html     ──  Book detail page
-  ├── MONRED-book.js       ──  Book-level data handler
-  ├── MONRED-pdf.js        ──  PDF sourcing via Archive API
-  ├── MONRED-logo.svg      ──  Identity
-  └── README.md            ──  You are here.
-```
-
----
-
-## ◈ TIMELINE
-
-```
-  2005 ──► LibriVox founded. Acoustical liberation written into its DNA.
-  2006 ──► Internet Archive digitization accelerates.
-           Millions of public domain texts go online.
-  2025 ──► LibriVox turns 20. 21,000+ books. 14,000+ volunteer readers.
-  2025 ──► MONRED built. Because 21,000 books deserved a real frontend.
+MONRED/
+├── index.html              ── Entry point / redirect
+├── MONRED-live.html        ── Discover page (main app)
+├── MONRED-library.html     ── Personal library
+├── MONRED-audiobooks.html  ── Audiobook catalog
+├── MONRED-search.html      ── Search interface
+├── MONRED-profile.html     ── User profile & progress
+├── MONRED-book.html        ── Individual book detail view
+├── MONRED-live.css         ── Stylesheet (all pages)
+├── MONRED-live.js          ── Core app logic
+├── MONRED-book.js          ── Book detail page logic
+├── MONRED-pdf.js           ── PDF handler
+└── MONRED-logo.svg         ── Logo
 ```
 
 ---
 
-## ◈ PHILOSOPHY
+## ◈ APIs Used
+
+### 🎙️ LibriVox API
+
+Powering every audiobook search, catalog listing, and play-ready detail page.
+
+- **Endpoint:** `https://librivox.org/api/`
+- **Returns:** Book metadata, reader info, MP3 URLs, language, genre
+
+### 📚 Internet Archive API
+
+Used to surface public domain PDF texts and match them to audiobook entries.
+
+- **Endpoints:**
+  - `https://archive.org/advancedsearch.php`
+  - `https://archive.org/metadata/{identifier}`
+- **Returns:** Full-text items, PDF links, subject metadata
+
+### 📖 Readest Integration
+
+Matching PDFs open directly inside Readest — a clean in-browser ebook reader — without ever leaving MONRED.
+
+---
+
+## ◈ Library Pulse
 
 ```
-  ╔══════════════════════════════════════════════════════════════╗
-  ║                                                              ║
-  ║   Public domain books should be heard, not just archived.   ║
-  ║                                                              ║
-  ║   LibriVox volunteers gave 20 years of their voices.        ║
-  ║   The Internet Archive holds civilisation's memory.         ║
-  ║   MONRED makes it accessible. Fast. Beautiful. Free.        ║
-  ║                                                              ║
-  ║   No accounts. No paywalls. No friction.                    ║
-  ║   Just the books. Just the signal.                          ║
-  ║                                                              ║
-  ╚══════════════════════════════════════════════════════════════╝
+  ╔══════════════════════════════════════════╗
+  ║   📖  21,346   cataloged works           ║
+  ║   👥  14,697   volunteer readers         ║
+  ║   🌍   2,664   non-English works         ║
+  ║   📅      83   new works last month      ║
+  ╚══════════════════════════════════════════╝
+             — live from LibriVox —
 ```
 
 ---
 
-## ◈ CONTRIBUTING
+## ◈ How It Works
 
 ```
-  fork → clone → branch → build → PR
+  You type a search
+        │
+        ├──▶  LibriVox API  ──▶  Audiobook player (play-ready)
+        │
+        └──▶  Internet Archive API  ──▶  PDF via Readest (direct open)
 ```
 
-UI fix, new search mode, deeper API integration — open an issue. Let's build.
+1. **Search** — Enter a title, author, genre, or narrator
+2. **Pick a lane** — Audiobook or PDF mode
+3. **Play or Read** — Jump straight in, zero friction
 
 ---
 
-<div align="center">
+## ◈ Philosophy
 
-![MONRED Footer](./monred-footer.svg)
+> *"Acoustical Liberation"* — public domain books should be heard, not just archived.
 
-</div>
+LibriVox volunteers have spent 20 years recording over 21,000 books. The Internet Archive holds civilisation's memory. MONRED makes it accessible. Fast. Beautiful. Free.
+
+No accounts. No paywalls. No friction. Just the books. Just the signal.
+
+---
+
+## ◈ Milestones
+
+```
+  2005  ── LibriVox project founded
+  2025  ── LibriVox 20th anniversary 🎉
+  2025  ── MONRED built — bringing it all together
+```
+
+---
+
+## ◈ Contributing
+
+Pull requests are welcome. Whether it's a UI fix, a new search mode, or deeper API integration — open an issue and let's talk.
+
+---
+
+## ◈ License
+
+[MIT](./LICENSE) — free to use, fork, and build on.
+
+---
+
+*Built on LibriVox · Internet Archive · Readest*
+*Public domain. Always free.*
