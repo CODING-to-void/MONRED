@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONRED Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./MONRED-live.css" />
+    <script src="./MONRED-theme.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="./MONRED-search.html">
+          <span class="brand-mark"><img src="./MONRED-logo.svg" alt="MONRED logo" /></span>
+          <span><strong>Search results</strong><small>Back to search</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <a href="./MONRED-live.html">Discover</a>
+          <a href="./MONRED-library.html">Library</a>
+          <a href="./MONRED-audiobooks.html">Audiobooks</a>
+          <a href="./MONRED-search.html">Search</a>
+          <a href="./MONRED-profile.html">Profile</a>
+        </nav>
+      </header>
+
+      <main class="app">
+        <section class="content-band">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow" id="resultsType">Results</p>
+              <h1 class="results-title" id="resultsTitle">Searching MONRED</h1>
+            </div>
+            <a class="ghost-button" href="./MONRED-search.html">New search</a>
+          </div>
+          <div class="status-banner" id="resultsStatus">Loading results...</div>
+          <div class="book-rail release-grid results-list" id="resultsList"></div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="Mobile primary">
+        <a href="./MONRED-live.html"><span class="nav-icon home"></span>Discover</a>
+        <a href="./MONRED-library.html"><span class="nav-icon library"></span>Library</a>
+        <a href="./MONRED-audiobooks.html"><span class="nav-icon audio"></span>Audio</a>
+        <a class="active" href="./MONRED-search.html"><span class="nav-icon search"></span>Search</a>
+        <a href="./MONRED-profile.html"><span class="nav-icon profile"></span>Profile</a>
+      </nav>
+    </div>
+    <script src="./MONRED-results.js"></script>
+  </body>
+</html>

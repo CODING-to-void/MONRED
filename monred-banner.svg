@@ -1,0 +1,496 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .syne { font-family: 'Courier New', Courier, monospace; font-weight: 800; }
+    </style>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-subtle">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#010a01"/>
+      <stop offset="100%" style="stop-color:#000d00"/>
+    </linearGradient>
+    <linearGradient id="fade-left" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#010a01;stop-opacity:0"/>
+      <stop offset="60%" style="stop-color:#010a01;stop-opacity:0.97"/>
+      <stop offset="100%" style="stop-color:#010a01;stop-opacity:0.97"/>
+    </linearGradient>
+    <linearGradient id="fade-right" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#010a01;stop-opacity:0.97"/>
+      <stop offset="40%" style="stop-color:#010a01;stop-opacity:0.97"/>
+      <stop offset="100%" style="stop-color:#010a01;stop-opacity:0"/>
+    </linearGradient>
+    <clipPath id="clip-left"><rect x="0" y="0" width="200" height="340"/></clipPath>
+    <clipPath id="clip-right"><rect x="700" y="0" width="200" height="340"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="340" fill="url(#bg-grad)"/>
+
+  <!-- ── LEFT RAIN ZONE ── -->
+  <g clip-path="url(#clip-left)" opacity="0.85">
+    <!-- col 0 x=8 -->
+    <g>
+      <text class="mono" font-size="13" fill="#00ff41" x="8" y="10">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="8" y="23">ﾐ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="8" y="36">ｦ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="8" y="49">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="8" y="62">ﾋ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="8" y="75">1</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="8" y="88">0</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="8" y="101">ｳ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="8" y="114">ｼ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="8" y="127">ﾏ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="8" y="140">ﾜ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="8" y="153">ｱ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="8" y="166">ﾑ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="8" y="179">ﾃ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="8" y="192">ｺ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="8" y="205">ﾒ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="8" y="218">ｴ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="8" y="231">ｶ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="8" y="244">ﾕ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="8" y="257">ﾗ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="8" y="270">ｾ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="8" y="283">ﾈ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="8" y="296">ﾇ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="8" y="309">ｿ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="8" y="322">ﾎ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="4.2s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 1 x=26 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="26" y="30">ｳ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="26" y="43">ｼ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="26" y="56">ﾅ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="26" y="69">ﾓ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="26" y="82">ﾆ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="26" y="95">ｻ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="26" y="108">ﾜ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="26" y="121">ﾏ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="26" y="134">0</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="26" y="147">1</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="26" y="160">ｱ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="26" y="173">ﾑ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="26" y="186">ﾃ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="26" y="199">ｺ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="26" y="212">ﾋ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="26" y="225">ｰ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="26" y="238">ﾐ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="26" y="251">ﾆ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="26" y="264">ｻ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="26" y="277">ﾊ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="26" y="290">ｦ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="26" y="303">ﾅ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-30;0,-17;0,-4;0,9;0,22;0,35;0,48;0,61;0,74;0,87;0,100;0,113;0,126;0,139;0,152;0,165;0,178;0,191;0,204;0,217;0,230;0,243;0,256;0,269;0,282;0,295;0,308;0,-30" dur="3.7s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 2 x=44 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="44" y="5">ﾒ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="44" y="18">ｴ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="44" y="31">ｶ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="44" y="44">ﾕ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="44" y="57">ﾗ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="44" y="70">ｾ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="44" y="83">ﾈ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="44" y="96">ﾒ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="44" y="109">ｴ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="44" y="122">0</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="44" y="135">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="44" y="148">ﾊ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="44" y="161">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="44" y="174">ｦ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="44" y="187">ﾅ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="44" y="200">ﾓ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="44" y="213">ﾆ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="44" y="226">ｻ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="44" y="239">ﾜ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="44" y="252">ﾏ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="44" y="265">ｱ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="44" y="278">ﾑ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="44" y="291">ﾃ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="5.1s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 3 x=62 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="62" y="55">ｳ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="62" y="68">ｼ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="62" y="81">ﾅ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="62" y="94">0</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="62" y="107">1</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="62" y="120">ﾆ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="62" y="133">ｻ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="62" y="146">ﾜ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="62" y="159">ﾏ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="62" y="172">ｱ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="62" y="185">ﾑ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="62" y="198">ﾃ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="62" y="211">ｺ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="62" y="224">ﾒ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="62" y="237">ｴ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="62" y="250">ｶ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="62" y="263">ﾕ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-55;0,-42;0,-29;0,-16;0,-3;0,10;0,23;0,36;0,49;0,62;0,75;0,88;0,101;0,114;0,127;0,140;0,153;0,166;0,179;0,192;0,205;0,218;0,231;0,244;0,257;0,270;0,283;0,296;0,-55" dur="4.6s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 4 x=80 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="80" y="15">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="80" y="28">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="80" y="41">ｦ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="80" y="54">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="80" y="67">ﾋ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="80" y="80">ｰ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="80" y="93">1</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="80" y="106">0</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="80" y="119">ﾒ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="80" y="132">ｴ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="80" y="145">ｶ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="80" y="158">ﾕ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="80" y="171">ﾗ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="80" y="184">ｾ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="80" y="197">ﾈ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="80" y="210">ﾇ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="80" y="223">ｿ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="80" y="236">ﾎ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="80" y="249">ﾏ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="3.4s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 5 x=98 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="98" y="70">ﾆ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="98" y="83">ｻ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="98" y="96">ﾜ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="98" y="109">ﾏ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="98" y="122">0</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="98" y="135">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="98" y="148">ｱ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="98" y="161">ﾑ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="98" y="174">ﾃ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="98" y="187">ｺ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="98" y="200">ﾒ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="98" y="213">ｴ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="98" y="226">ｶ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="98" y="239">ﾕ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-70;0,-57;0,-44;0,-31;0,-18;0,-5;0,8;0,21;0,34;0,47;0,60;0,73;0,86;0,99;0,112;0,125;0,138;0,151;0,164;0,177;0,190;0,203;0,216;0,229;0,242;0,255;0,268;0,281;0,294;0,-70" dur="5.5s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 6 x=116 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="116" y="35">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="116" y="48">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="116" y="61">1</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="116" y="74">0</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="116" y="87">ｦ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="116" y="100">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="116" y="113">ﾋ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="116" y="126">ｰ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="116" y="139">ﾆ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="116" y="152">ｻ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="116" y="165">ﾜ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="116" y="178">ﾏ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="116" y="191">ｱ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="4.8s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 7 x=134 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="134" y="90">ﾒ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="134" y="103">ｴ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="134" y="116">ｶ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="134" y="129">ﾕ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="134" y="142">1</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="134" y="155">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="134" y="168">ﾗ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="134" y="181">ｾ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="134" y="194">ﾈ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="134" y="207">ﾇ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="134" y="220">ｿ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-90;0,-77;0,-64;0,-51;0,-38;0,-25;0,-12;0,1;0,14;0,27;0,40;0,53;0,66;0,79;0,92;0,105;0,118;0,131;0,144;0,157;0,170;0,183;0,196;0,209;0,222;0,235;0,248;0,261;0,274;0,287;0,300;0,-90" dur="3.9s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 8 x=152 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="152" y="20">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="152" y="33">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="152" y="46">ｦ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="152" y="59">0</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="152" y="72">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="152" y="85">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="152" y="98">ﾋ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="152" y="111">ｰ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="152" y="124">ﾆ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="152" y="137">ｻ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="152" y="150">ﾜ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="4.3s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 9 x=170 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="170" y="45">ﾒ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="170" y="58">ｴ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="170" y="71">ｶ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="170" y="84">ﾕ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="170" y="97">ﾗ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="170" y="110">ｾ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="170" y="123">ﾈ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="170" y="136">1</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="170" y="149">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="170" y="162">ﾇ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="170" y="175">ｿ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-45;0,-32;0,-19;0,-6;0,7;0,20;0,33;0,46;0,59;0,72;0,85;0,98;0,111;0,124;0,137;0,150;0,163;0,176;0,189;0,202;0,215;0,228;0,241;0,254;0,267;0,280;0,293;0,306;0,-45" dur="5.0s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 10 x=188 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="188" y="8">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="188" y="21">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="188" y="34">ｦ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="188" y="47">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="188" y="60">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="188" y="73">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="188" y="86">ﾋ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="3.6s" repeatCount="indefinite"/>
+    </g>
+    <!-- Left fade overlay -->
+    <rect x="0" y="0" width="200" height="340" fill="url(#fade-left)"/>
+  </g>
+
+  <!-- ── RIGHT RAIN ZONE ── -->
+  <g clip-path="url(#clip-right)" opacity="0.85">
+    <!-- col 0 x=700 -->
+    <g>
+      <text class="mono" font-size="13" fill="#00ff41" x="700" y="10">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="700" y="23">ﾐ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="700" y="36">ｦ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="700" y="49">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="700" y="62">1</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="700" y="75">0</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="700" y="88">ﾋ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="700" y="101">ｰ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="700" y="114">ﾆ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="700" y="127">ｻ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="700" y="140">ﾜ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="700" y="153">ﾏ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="700" y="166">ｱ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="700" y="179">ﾑ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="700" y="192">ﾃ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="700" y="205">ｺ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="700" y="218">ﾒ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="700" y="231">ｴ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="700" y="244">ｶ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="700" y="257">ﾕ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="4.1s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 1 x=718 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="718" y="50">ﾗ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="718" y="63">ｾ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="718" y="76">ﾈ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="718" y="89">ﾇ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="718" y="102">1</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="718" y="115">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="718" y="128">ｿ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="718" y="141">ﾎ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="718" y="154">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="718" y="167">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="718" y="180">ｦ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="718" y="193">ﾅ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="718" y="206">ﾋ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="718" y="219">ｰ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-50;0,-37;0,-24;0,-11;0,2;0,15;0,28;0,41;0,54;0,67;0,80;0,93;0,106;0,119;0,132;0,145;0,158;0,171;0,184;0,197;0,210;0,223;0,236;0,249;0,262;0,275;0,288;0,301;0,-50" dur="3.7s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 2 x=736 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="736" y="5">ﾒ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="736" y="18">ｴ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="736" y="31">ｶ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="736" y="44">ﾕ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="736" y="57">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="736" y="70">0</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="736" y="83">ﾗ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="736" y="96">ｾ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="736" y="109">ﾈ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="736" y="122">ﾇ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="736" y="135">ｿ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="736" y="148">ﾎ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="736" y="161">ﾊ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="5.2s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 3 x=754 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="754" y="75">ﾐ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="754" y="88">ｦ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="754" y="101">ﾅ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="754" y="114">ﾋ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="754" y="127">ｰ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="754" y="140">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="754" y="153">0</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="754" y="166">ﾆ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="754" y="179">ｻ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="754" y="192">ﾜ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="754" y="205">ﾏ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-75;0,-62;0,-49;0,-36;0,-23;0,-10;0,3;0,16;0,29;0,42;0,55;0,68;0,81;0,94;0,107;0,120;0,133;0,146;0,159;0,172;0,185;0,198;0,211;0,224;0,237;0,250;0,263;0,276;0,289;0,302;0,-75" dur="4.5s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 4 x=772 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="772" y="25">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="772" y="38">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="772" y="51">1</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="772" y="64">0</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="772" y="77">ｦ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="772" y="90">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="772" y="103">ﾋ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="772" y="116">ｰ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="772" y="129">ﾆ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="772" y="142">ｻ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="772" y="155">ﾜ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="772" y="168">ﾏ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="772" y="181">ｱ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="3.5s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 5 x=790 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="790" y="60">ﾒ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="790" y="73">ｴ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="790" y="86">ｶ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="790" y="99">ﾕ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="790" y="112">ﾗ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="790" y="125">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="790" y="138">0</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="790" y="151">ｾ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="790" y="164">ﾈ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="790" y="177">ﾇ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="790" y="190">ｿ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-60;0,-47;0,-34;0,-21;0,-8;0,5;0,18;0,31;0,44;0,57;0,70;0,83;0,96;0,109;0,122;0,135;0,148;0,161;0,174;0,187;0,200;0,213;0,226;0,239;0,252;0,265;0,278;0,291;0,304;0,-60" dur="5.4s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 6 x=808 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="808" y="15">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="808" y="28">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="808" y="41">ｦ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="808" y="54">1</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="808" y="67">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="808" y="80">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="808" y="93">ﾋ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="808" y="106">ｰ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="808" y="119">ﾆ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="808" y="132">ｻ</text>
+      <text class="mono" font-size="13" fill="#004d12" x="808" y="145">ﾜ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="4.7s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 7 x=826 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="826" y="85">ﾒ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="826" y="98">ｴ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="826" y="111">ｶ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="826" y="124">ﾕ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="826" y="137">ﾗ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="826" y="150">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="826" y="163">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="826" y="176">ｾ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-85;0,-72;0,-59;0,-46;0,-33;0,-20;0,-7;0,6;0,19;0,32;0,45;0,58;0,71;0,84;0,97;0,110;0,123;0,136;0,149;0,162;0,175;0,188;0,201;0,214;0,227;0,240;0,253;0,266;0,279;0,292;0,305;0,-85" dur="3.8s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 8 x=844 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="844" y="30">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="844" y="43">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="844" y="56">ｦ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="844" y="69">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="844" y="82">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="844" y="95">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="844" y="108">ﾋ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="4.0s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 9 x=862 -->
+    <g>
+      <text class="mono" font-size="13" fill="#004d12" x="862" y="65">ﾒ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="862" y="78">ｴ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="862" y="91">ｶ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="862" y="104">ﾕ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="862" y="117">ﾗ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="862" y="130">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="862" y="143">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="862" y="156">ｾ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,-65;0,-52;0,-39;0,-26;0,-13;0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,-65" dur="5.6s" repeatCount="indefinite"/>
+    </g>
+    <!-- col 10 x=880 -->
+    <g>
+      <text class="mono" font-size="13" fill="#007a1f" x="880" y="10">ﾊ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="880" y="23">ﾐ</text>
+      <text class="mono" font-size="13" fill="#00ff41" x="880" y="36">ｦ</text>
+      <text class="mono" font-size="13" fill="#00cc33" x="880" y="49">ﾅ</text>
+      <text class="mono" font-size="13" fill="#007a1f" x="880" y="62">1</text>
+      <text class="mono" font-size="13" fill="#004d12" x="880" y="75">0</text>
+      <text class="mono" font-size="13" fill="#004d12" x="880" y="88">ﾋ</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,13;0,26;0,39;0,52;0,65;0,78;0,91;0,104;0,117;0,130;0,143;0,156;0,169;0,182;0,195;0,208;0,221;0,234;0,247;0,260;0,273;0,286;0,299;0,312;0,325;0,0" dur="3.3s" repeatCount="indefinite"/>
+    </g>
+    <!-- Right fade overlay -->
+    <rect x="700" y="0" width="200" height="340" fill="url(#fade-right)"/>
+  </g>
+
+  <!-- ── SCAN LINE ── -->
+  <rect x="0" y="0" width="900" height="2" fill="#00ff41" opacity="0.06">
+    <animate attributeName="y" values="-2;342" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ── CENTER CONTENT ── -->
+
+  <!-- Eyebrow label -->
+  <text class="mono" font-size="11" fill="#007a1f" x="450" y="72" text-anchor="middle" letter-spacing="5" filter="url(#glow-subtle)">ACOUSTICAL  LIBERATION</text>
+
+  <!-- Main title - glow layer -->
+  <text class="syne" font-size="72" fill="#00ff41" x="450" y="155" text-anchor="middle" letter-spacing="12" filter="url(#glow-strong)" opacity="0.35">MONRED</text>
+  <!-- Main title - crisp layer -->
+  <text class="syne" font-size="72" fill="#00ff41" x="450" y="155" text-anchor="middle" letter-spacing="12" filter="url(#glow-soft)">MONRED</text>
+
+  <!-- Subtitle -->
+  <text class="mono" font-size="13" fill="#00cc33" x="450" y="183" text-anchor="middle" letter-spacing="3" filter="url(#glow-subtle)">Real books. Playable detail views.</text>
+
+  <!-- Divider line -->
+  <line x1="310" y1="200" x2="590" y2="200" stroke="#007a1f" stroke-width="1" opacity="0.6"/>
+  <circle cx="310" cy="200" r="2" fill="#00ff41" opacity="0.7"/>
+  <circle cx="590" cy="200" r="2" fill="#00ff41" opacity="0.7"/>
+
+  <!-- ── STAT CARDS ── -->
+
+  <!-- Card 1: Works -->
+  <rect x="195" y="216" width="145" height="78" rx="6" fill="#000d00" stroke="#00ff41" stroke-width="1" opacity="0.9"/>
+  <rect x="195" y="216" width="145" height="78" rx="6" fill="#003308" opacity="0.3"/>
+  <text class="mono" font-size="9" fill="#007a1f" x="267" y="233" text-anchor="middle" letter-spacing="2">CATALOG</text>
+  <text class="syne" font-size="28" fill="#00ff41" x="267" y="265" text-anchor="middle" filter="url(#glow-soft)">21,346</text>
+  <text class="mono" font-size="9" fill="#00a827" x="267" y="283" text-anchor="middle">audiobooks</text>
+
+  <!-- Card 2: Readers -->
+  <rect x="377" y="216" width="145" height="78" rx="6" fill="#000d00" stroke="#00cc33" stroke-width="1" opacity="0.9"/>
+  <rect x="377" y="216" width="145" height="78" rx="6" fill="#002a07" opacity="0.3"/>
+  <text class="mono" font-size="9" fill="#007a1f" x="450" y="233" text-anchor="middle" letter-spacing="2">READERS</text>
+  <text class="syne" font-size="28" fill="#00cc33" x="450" y="265" text-anchor="middle" filter="url(#glow-soft)">14,697</text>
+  <text class="mono" font-size="9" fill="#00a827" x="450" y="283" text-anchor="middle">volunteers</text>
+
+  <!-- Card 3: Languages -->
+  <rect x="559" y="216" width="145" height="78" rx="6" fill="#000d00" stroke="#00aa2a" stroke-width="1" opacity="0.9"/>
+  <rect x="559" y="216" width="145" height="78" rx="6" fill="#002205" opacity="0.3"/>
+  <text class="mono" font-size="9" fill="#007a1f" x="632" y="233" text-anchor="middle" letter-spacing="2">LANGUAGES</text>
+  <text class="syne" font-size="28" fill="#00aa2a" x="632" y="265" text-anchor="middle" filter="url(#glow-soft)">2,664</text>
+  <text class="mono" font-size="9" fill="#00a827" x="632" y="283" text-anchor="middle">non-english</text>
+
+  <!-- Bottom "pill" button echoing site UI -->
+  <rect x="373" y="308" width="154" height="22" rx="11" fill="#001a04" stroke="#00ff41" stroke-width="0.8"/>
+  <text class="mono" font-size="10" fill="#00ff41" x="450" y="323" text-anchor="middle" letter-spacing="2" filter="url(#glow-subtle)">◈ ZERO PAYWALLS</text>
+
+  <!-- Border lines top/bottom -->
+  <line x1="0" y1="1" x2="900" y2="1" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="339" x2="900" y2="339" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+
+  <!-- Corner marks -->
+  <text class="mono" font-size="10" fill="#00ff41" opacity="0.5" x="10" y="16">◈</text>
+  <text class="mono" font-size="10" fill="#00ff41" opacity="0.5" x="878" y="16">◈</text>
+  <text class="mono" font-size="10" fill="#00ff41" opacity="0.5" x="10" y="334">◈</text>
+  <text class="mono" font-size="10" fill="#00ff41" opacity="0.5" x="878" y="334">◈</text>
+
+</svg>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONRED Reader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./MONRED-live.css" />
+    <script src="./MONRED-theme.js"></script>
+  </head>
+  <body class="reader-body">
+    <main class="reader-shell">
+      <header class="reader-toolbar" id="readerToolbar">
+        <a class="card-link" href="./MONRED-live.html">Library</a>
+        <div class="reader-title">
+          <strong id="readerTitle">MONRED Reader</strong>
+          <span id="readerMeta">PDF reading mode</span>
+        </div>
+        <div class="reader-controls">
+          <button class="ghost-button" id="readerTheme" type="button">Dark</button>
+          <button class="ghost-button" id="readerSize" type="button">Type</button>
+          <button class="ghost-button reader-fullscreen-button" id="readerFullscreen" type="button" aria-label="Enter full screen">
+            <span class="reader-fullscreen-icon" aria-hidden="true"></span>
+            <span id="readerFullscreenLabel">Full Screen</span>
+          </button>
+        </div>
+      </header>
+      <div class="reader-progress"><span id="readerProgress"></span></div>
+      <section class="reader-frame-wrap">
+        <iframe id="readerFrame" title="PDF reader"></iframe>
+      </section>
+    </main>
+    <script src="./MONRED-reader.js"></script>
+  </body>
+</html>

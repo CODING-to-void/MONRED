@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONRED Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./MONRED-live.css" />
+    <script src="./MONRED-theme.js"></script>
+  </head>
+  <body class="profile-page">
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="./MONRED-live.html">
+          <span class="brand-mark"><img src="./MONRED-logo.svg" alt="MONRED logo" /></span>
+          <span><strong>MONRED</strong><small>Profile</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <a href="./MONRED-live.html">Discover</a>
+          <a href="./MONRED-library.html">Library</a>
+          <a href="./MONRED-audiobooks.html">Audiobooks</a>
+          <a href="./MONRED-search.html">Search</a>
+          <a href="./MONRED-profile.html">Profile</a>
+        </nav>
+      </header>
+
+      <main class="app">
+        <section class="content-band profile-hero">
+          <div class="profile-heading">
+            <div>
+              <p class="eyebrow">Profile</p>
+              <h1>Your reading shelf.</h1>
+              <p>Progress, finished books, and reading comfort in one quiet place.</p>
+            </div>
+            <label class="theme-toggle">
+              <span>Dark mode</span>
+              <input id="profileThemeToggle" type="checkbox" />
+              <i aria-hidden="true"></i>
+            </label>
+          </div>
+        </section>
+
+        <section class="content-band">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Currently Reading</p>
+              <h2>In progress.</h2>
+            </div>
+          </div>
+          <div class="profile-book-list">
+            <article class="profile-book-card">
+              <img class="blur-img loaded" src="https://archive.org/services/img/solo_pride_librivox" alt="Pride and Prejudice cover" />
+              <div>
+                <span>64% complete</span>
+                <h3>Pride and Prejudice</h3>
+                <p>Jane Austen</p>
+                <div class="progress-track"><span style="width: 64%"></span></div>
+              </div>
+              <a class="card-link primary" href="./MONRED-audiobooks.html">Continue</a>
+            </article>
+            <article class="profile-book-card">
+              <img class="blur-img loaded" src="https://archive.org/services/img/adventuressherlockholmes_v4_1501_librivox" alt="Sherlock Holmes cover" />
+              <div>
+                <span>48% complete</span>
+                <h3>The Adventures of Sherlock Holmes</h3>
+                <p>Arthur Conan Doyle</p>
+                <div class="progress-track"><span style="width: 48%"></span></div>
+              </div>
+              <a class="card-link primary" href="./MONRED-search.html">Continue</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-band">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Read</p>
+              <h2>Finished books.</h2>
+            </div>
+          </div>
+          <div class="finished-grid">
+            <article class="finished-book">
+              <img class="blur-img loaded" src="https://archive.org/services/img/frankenstein_librivox" alt="Frankenstein cover" />
+              <strong>Frankenstein</strong>
+              <span>Mary Shelley</span>
+            </article>
+            <article class="finished-book">
+              <img class="blur-img loaded" src="https://archive.org/services/img/republic_0803_librivox" alt="The Republic cover" />
+              <strong>The Republic</strong>
+              <span>Plato</span>
+            </article>
+            <article class="finished-book">
+              <img class="blur-img loaded" src="https://archive.org/services/img/timemachine_0912_librivox" alt="The Time Machine cover" />
+              <strong>The Time Machine</strong>
+              <span>H. G. Wells</span>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="Mobile primary">
+        <a href="./MONRED-live.html"><span class="nav-icon home"></span>Discover</a>
+        <a href="./MONRED-library.html"><span class="nav-icon library"></span>Library</a>
+        <a href="./MONRED-audiobooks.html"><span class="nav-icon audio"></span>Audio</a>
+        <a href="./MONRED-search.html"><span class="nav-icon search"></span>Search</a>
+        <a class="active" href="./MONRED-profile.html"><span class="nav-icon profile"></span>Profile</a>
+      </nav>
+    </div>
+    <script src="./MONRED-profile.js"></script>
+  </body>
+</html>

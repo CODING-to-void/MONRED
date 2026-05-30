@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONRED Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./MONRED-live.css" />
+    <script src="./MONRED-theme.js"></script>
+  </head>
+  <body class="search-page search-only-page">
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="./MONRED-live.html">
+          <span class="brand-mark"><img src="./MONRED-logo.svg" alt="MONRED logo" /></span>
+          <span><strong>MONRED</strong><small>Search</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <a href="./MONRED-live.html">Discover</a>
+          <a href="./MONRED-library.html">Library</a>
+          <a href="./MONRED-audiobooks.html">Audiobooks</a>
+          <a href="./MONRED-search.html">Search</a>
+          <a href="./MONRED-profile.html">Profile</a>
+        </nav>
+      </header>
+
+      <main class="app search-only-app">
+        <section class="search-desktop-hero" aria-label="Search MONRED">
+          <div class="search-hero-copy">
+            <p class="eyebrow">Search</p>
+            <h1>What do you want to find?</h1>
+            <p>Search thousands of audiobooks, books, authors, narrators, and literary works.</p>
+          </div>
+
+          <div class="search-visual" aria-hidden="true">
+            <div class="paper-plane"></div>
+            <img class="visual-book visual-book-one" src="https://archive.org/services/img/sherlock_holmes_librivox" alt="" loading="lazy" decoding="async" />
+            <img class="visual-book visual-book-two" src="https://archive.org/services/img/christmascarol_librivox" alt="" loading="lazy" decoding="async" />
+            <img class="visual-book visual-book-three" src="https://archive.org/services/img/republic_0803_librivox" alt="" loading="lazy" decoding="async" />
+          </div>
+        </section>
+
+        <section class="search-only-card desktop-search-panel" aria-label="Search controls">
+          <form class="search-only-form" id="simpleSearchForm">
+            <div class="search-command-row">
+              <label class="sr-only" for="simpleSearchInput">Search MONRED</label>
+              <div class="search-only-input">
+                <span class="search-icon" aria-hidden="true"></span>
+                <input
+                  id="simpleSearchInput"
+                  name="q"
+                  type="search"
+                  placeholder="Search by title, author, genre, or narrator"
+                  autocomplete="off"
+                  required
+                />
+                <button class="search-tool-button" id="voiceSearchButton" type="button" aria-label="Start voice search">Voice</button>
+                <button class="search-tool-button" id="clearSearchButton" type="button" aria-label="Clear search">Clear</button>
+              </div>
+              <button class="primary-button search-submit" type="submit">Search</button>
+            </div>
+
+            <div class="content-type-switch" aria-label="Search type">
+              <label>
+                <input type="radio" name="type" value="audio" checked />
+                <span>Audiobooks</span>
+              </label>
+              <label>
+                <input type="radio" name="type" value="pdf" />
+                <span>PDF Books</span>
+              </label>
+              <label>
+                <input type="radio" name="type" value="authors" />
+                <span>Authors</span>
+              </label>
+              <label>
+                <input type="radio" name="type" value="narrators" />
+                <span>Narrators</span>
+              </label>
+            </div>
+          </form>
+        </section>
+
+      </main>
+
+      <nav class="bottom-nav" aria-label="Mobile primary">
+        <a href="./MONRED-live.html"><span class="nav-icon home"></span>Discover</a>
+        <a href="./MONRED-library.html"><span class="nav-icon library"></span>Library</a>
+        <a href="./MONRED-audiobooks.html"><span class="nav-icon audio"></span>Audio</a>
+        <a class="active" href="./MONRED-search.html"><span class="nav-icon search"></span>Search</a>
+        <a href="./MONRED-profile.html"><span class="nav-icon profile"></span>Profile</a>
+      </nav>
+    </div>
+    <script src="./MONRED-search.js"></script>
+  </body>
+</html>
